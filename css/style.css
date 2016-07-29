@@ -1,16 +1,11 @@
-::-webkit-scrollbar { 
-    display: none; 
-}
-
-.clear {
-    clear: both;
-}
-
-
 body {
     margin: 0;
     height: 100%;
     width: 100%;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
 }
 
     #container {
@@ -21,11 +16,14 @@ body {
         font-family: arial, Helvetica, Georgia;
     }
 
-
         .navBar {
-            display: flex;
-            width: 100%;
-            position: fixed;
+          display: flex;
+        width: 100%;
+        position: fixed;
+        }
+
+        .navBar, .main {
+            background-color: #222;
         }
 
             .navBar .leftNav {
@@ -36,13 +34,13 @@ body {
                 color: gray;
             }
 
-               .navBar .leftNav .logo img {
-                    margin: 10px 0;
-                }
+            .navBar .leftNav .logo img {
+                margin: 10px 0;
+            }
 
-                .navBar .leftNav .name {
-                    margin: auto 0;
-                }
+            .navBar .leftNav .name {
+                margin: auto 0;
+            }
 
             .navBar .rightNav {
                 width: 50%;
@@ -62,13 +60,6 @@ body {
                 .navBar .rightNav a:hover {
                     color: #a8906b;
                 }
-
-
-        .navBar, 
-        .main {
-                background-color: #222;
-        }
-
 
         .main {
             min-height: 100vh;
@@ -108,92 +99,88 @@ body {
                         color: #ededed;
                     }
 
+    #about {
+        min-height: 100vh;
+        width: 80%;
+        padding: 9% 0;
+        font-weight: 600;
+        margin: 0 auto;
+        background-color: #fff;
+        color: #a8906b;
+    }
 
+    #portfolio {
+        min-height: 100vh;
+        width: 100%;
+        margin-left: 10%;
+        color: #a8906b;
+        padding: 9% 0;
+    }
 
-        #about {
-            min-height: 100vh;
-            width: 80%;
-            padding: 9% 0;
-            font-weight: 600;
-            margin: 0 auto;
-            background-color: #fff;
-            color: #a8906b;
+#portfolio img {
+  margin: 0.5%;
+  min-width: 130px;
+}
+
+        #portfolio img:hover {
+            opacity: 0.6;
+            cursor: pointer;
         }
 
+        #portfolio a {
+            text-decoration: none;
+        }
+        
+    #contact {
+        color: #a8906b;
+        padding-top: 10%;
+        margin-left: 10%;
+        min-height: 70vh;
+    }
 
+    #contact h1 {
+        margin: 0;
+    }
 
-        #portfolio {
-            min-height: 100vh;
-            width: 100%;
-            margin-left: 10%;
-            color: #a8906b;
-            padding: 9% 0;
+        #contact form{
+                       
         }
 
-            #portfolio img {
-              margin: 0.5%;
-              min-width: 130px;
+            #contact form input {
+                line-height: 20pt;
+                margin-bottom: 1%;
+                width: 30%;
             }
 
-            #portfolio img:hover {
-                opacity: 0.6;
-                cursor: pointer;
-            }
+#contact form .send {
+  width: 10%;
+  margin-left: 10%;
+}
 
-            #portfolio a {
+#contact form textarea {
+  width: 30%;
+}
+
+        #contact #links {
+            text-align: center;
+            margin-top: 5%;
+        }
+
+            #contact #links a {
                 text-decoration: none;
             }
-        
 
-
-        #contact {
-            color: #a8906b;
-            padding-top: 10%;
-            margin-left: 10%;
-            min-height: 70vh;
-        }
-
-            #contact h1 {
-                margin: 0;
-            }
-
-                #contact form input {
-                    line-height: 20pt;
-                    margin-bottom: 1%;
-                    width: 30%;
+                #contact #links a img {
+                    width: 6%;
+                    min-width: 50px;
+                    margin: 0 4% 2% 4%;
                 }
 
-                #contact form .send {
-                  width: 10%;
-                  margin-left: 10%;
+                #contact #links a img:hover {
+                    opacity: 0.8;
                 }
 
-                #contact form textarea {
-                  width: 30%;
-                }
-
-            #contact #links {
-                text-align: center;
-                margin-top: 5%;
-            }
-
-                #contact #links a {
-                    text-decoration: none;
-                }
-
-                    #contact #links a img {
-                        width: 6%;
-                        min-width: 50px;
-                        margin: 0 4% 2% 4%;
-                    }
-
-                    #contact #links a img:hover {
-                        opacity: 0.8;
-                    }
-
-
-
-        #footer {
+    #footer {
             width: 100%;
             height: 80px;
             max-height: 80px;
@@ -223,7 +210,7 @@ body {
                 #footer .footerLine .leftFooter {
                   margin: 16px 6% 0 0;
                   padding: 0.24% 0 0 6%;
-                }
+}
 
                     #footer .footerLine .rightFooter a {
                         text-decoration: none;
@@ -233,3 +220,7 @@ body {
                     #footer .footerLine .rightFooter a:hover {
                         color: black;
                     }
+
+.clear {
+    clear: both;
+}
