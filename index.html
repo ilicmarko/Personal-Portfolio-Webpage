@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-
 <html>
 
 	<head>
-		<title> Petar Petkovic </title>
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<title> Petar Petković </title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<meta charset="UTf-8">
+    	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	</head>
 
 	<body>
@@ -15,7 +15,7 @@
 			<div class="navBar">
 				<div class="leftNav">
 					<span class="logo">
-					<img src="logo.jpg" alt="logo" width="45px">
+					<img src="images/logo.jpg" alt="logo" width="45px">
 					</span>
 					<span class="name"> Portfolio Webpage </span>
 				</div>
@@ -51,20 +51,19 @@
 
 			<div id="portfolio">
 				<h1> Portfolio </h1>
-				<a href="https://5ar5kovic.github.io/Tribute-Page/" target="_blank"> <img src="p1.jpg" width="20%" height="15%" title="Tribute Page"> </a>
-				<a href="#portfolio"> <img src="holder.jpg" width="20%" height="15%" title="empty"> </a>
-				<a href="#portfolio"> <img src="holder.jpg" width="20%" height="15%" title="empty"> </a>
-				<a href="#portfolio"> <img src="holder.jpg" width="20%" height="15%" title="empty"> </a>
-				<a href="#portfolio"> <img src="holder.jpg" width="20%" height="15%" title="empty"> </a>
-				<a href="#portfolio"> <img src="holder.jpg" width="20%" height="15%" title="empty"> </a>
-				<a href="#portfolio"> <img src="holder.jpg" width="20%" height="15%" title="empty"> </a>
-				<a href="#portfolio"> <img src="holder.jpg" width="20%" height="15%" title="empty"> </a>
+				<a href="https://5ar5kovic.github.io/Tribute-Page/" target="_blank"> <img src="images/p1.jpg" width="20%" height="15%" title="Tribute Page"> </a>
+				<a href="#portfolio"> <img src="images/holder.jpg" width="20%" height="15%" title="empty"> </a>
+				<a href="#portfolio"> <img src="images/holder.jpg" width="20%" height="15%" title="empty"> </a>
+				<a href="#portfolio"> <img src="images/holder.jpg" width="20%" height="15%" title="empty"> </a>
+				<a href="#portfolio"> <img src="images/holder.jpg" width="20%" height="15%" title="empty"> </a>
+				<a href="#portfolio"> <img src="images/holder.jpg" width="20%" height="15%" title="empty"> </a>
+				<a href="#portfolio"> <img src="images/holder.jpg" width="20%" height="15%" title="empty"> </a>
+				<a href="#portfolio"> <img src="images/holder.jpg" width="20%" height="15%" title="empty"> </a>
 			</div>
 
 			<div id="contact">
 				<h1> Contact me </h1> <br/> <br/>
-				
-				<!-- <?php
+				<!--<?php
 					$action=$_REQUEST['action'];
 					if ($action=="")    /* display the contact form */
 			   		{
@@ -74,9 +73,9 @@
 				    <input name="name" size="40" type="text" placeholder="Your name:"> <br/>
 				    <input name="email" size="40" type="text" placeholder="Your e-mail:"> <br/>
 				    <textarea placeholder="Your message..." name="message" rows="7" cols="40"></textarea> <br/>
-				    <input value="Send email" type="submit">
+				    <input value="Send email" type="submit" class="send">
 			    </form>
-			    <!-- <?php
+			    <!--<?php
 			    } 
 					else                /* send the submitted data */
 					    {
@@ -84,10 +83,10 @@
 						    $email=$_REQUEST['email'];
 						    $message=$_REQUEST['message'];
 					    if (($name=="")||($email=="")||($message=="")) {
-					        echo "All fields are required, please fill form again.";
+					        echo "All fields are required, please fill <a href=\"\">the form</a> again.";
 					    }
 					    else {        
-					        $from="From: $name, $email, Return-path: $email";
+					        $from="From: $name<$email>\r\nReturn-path: $email";
 					        $subject="Message sent using your contact form";
 					        mail("petar.petkovic@pmf.edu.rs", $subject, $message, $from);
 					        echo "Email sent!";
@@ -96,13 +95,13 @@
 				?> -->
 				
 				<div id="links">
-	    			<a href="https://www.linkedin.com/in/petarpetkovic" target="_blank"> <img src="linkedin.png" title="Linkedin" class="large" alt="linkedin logo"> </a>
-	    			<a href="https://plus.google.com/u/0/102190003575610727918" target="_blank"> <img src="google.jpg" title="Google+" class="small" alt="google plus logo"> </a>
-	    			<a href="https://github.com/5ar5kovic" target="_blank"> <img src="github.png" title="GitHub" class="small" alt="github logo"> </a>
-	    			<a href="https://www.facebook.com/5ar5kovic" target="_blank"> <img src="facebook.png" title="Facebook" class="large" alt="facebook logo"> </a>
+	    			<a href="https://www.linkedin.com/in/petarpetkovic" target="_blank"> <img src="images/linkedin.png" title="Linkedin" class="large" alt="linkedin logo"> </a>
+	    			<a href="https://plus.google.com/u/0/102190003575610727918" target="_blank"> <img src="images/google.jpg" title="Google+" class="small" alt="google plus logo"> </a>
+	    			<a href="https://github.com/5ar5kovic" target="_blank"> <img src="images/github.png" title="GitHub" class="small" alt="github logo"> </a>
+	    			<a href="https://www.facebook.com/5ar5kovic" target="_blank"> <img src="images/facebook.jpg" title="Facebook" class="large" alt="facebook logo"> </a>
     			</div> <!-- end of #links -->
     		<div class="clear"> </div>
-    		</div>
+    		</div> <!-- end of .contact -->
 
     		<div id="footer">
     		    <div class="footerLine">
@@ -110,16 +109,16 @@
                         <p> © 2016 Petar Petković </p>
                     </div>
                     <div class="rightFooter">
-                        <a href="https://github.com/5ar5kovic/UVP-Custom" title="GitHub" target="_blank"> All Codes for this Site </a>
+                        <a href="http://codepen.io/5ar5kovic/pen/XKBJRJ" title="GitHub" target="_blank"> All Codes for this Site </a>
                     </div>
                     <div class="clear"> </div>
 
                 </div>
 
             </div> <!-- End of footer -->
-			</div>
+			
 		
-		</div>
+		</div> <!-- end of .container -->
 
 	</body>
 
