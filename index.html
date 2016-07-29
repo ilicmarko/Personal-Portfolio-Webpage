@@ -63,11 +63,12 @@
 
 			<div id="contact">
 				<h1> Contact me </h1> <br/> <br/>
-				<?php
+				
+				<!-- <?php
 					$action=$_REQUEST['action'];
 					if ($action=="")    /* display the contact form */
 			   		{
-			    ?>
+			    ?> -->
 			    <form action="" method="POST" enctype="multipart/form-data">	    
 				    <input name="action" value="submit" type="hidden">
 				    <input name="name" size="40" type="text" placeholder="Your name:"> <br/>
@@ -75,7 +76,7 @@
 				    <textarea placeholder="Your message..." name="message" rows="7" cols="40"></textarea> <br/>
 				    <input value="Send email" type="submit">
 			    </form>
-			    <?php
+			    <!-- <?php
 			    } 
 					else                /* send the submitted data */
 					    {
@@ -92,7 +93,7 @@
 					        echo "Email sent!";
 					    }
 			    }  
-				?>
+				?> -->
 				
 				<div id="links">
 	    			<a href="https://www.linkedin.com/in/petarpetkovic" target="_blank"> <img src="linkedin.png" title="Linkedin" class="large" alt="linkedin logo"> </a>
