@@ -86,7 +86,7 @@
 					        echo "All fields are required, please fill form again.";
 					    }
 					    else {        
-					        $from="From: $name<$email>\r\nReturn-path: $email";
+					        $from="From: $name, $email, Return-path: $email";
 					        $subject="Message sent using your contact form";
 					        mail("petar.petkovic@pmf.edu.rs", $subject, $message, $from);
 					        echo "Email sent!";
