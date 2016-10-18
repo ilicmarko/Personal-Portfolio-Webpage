@@ -53,6 +53,8 @@ body {
 
                     .navBar .leftNav .logo img {
                         margin: 10px 0;
+                        height: 45px;
+                        width: 45px;
                     }
 
                 .navBar .rightNav {
@@ -113,7 +115,7 @@ body {
                     .main .homePageTitles .titles a:hover {
                         color: #ededed;
                     }
-                    
+
         #about {
             min-height: 100vh;
             width: 80%;
@@ -129,7 +131,8 @@ body {
             }
 
         #portfolio {
-            width: 100%;
+            width: 90%;
+            min-height: 100vh;
             margin-left: 10%;
             color: #a8906b;
             padding: 7% 0;
