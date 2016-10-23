@@ -62,25 +62,25 @@
 
 			<div id="portfolio">
 				<h1> Portfolio </h1>
-				<div class="box firstChild" onclick="window.open('https://5ar5kovic.github.io/Tribute-Page/', '_blank');"> <img src="https://s31.postimg.org/qm4ao6b7f/image.jpg" width="100%" height="15%" title="Tribute Page" alt="Tribute Page"> <div class="textbox"> <p class="text">Tribute Page</p></div></div>
-				<div class="box"> <img src="https://s14.postimg.org/lxwxe3r75/holder.jpg" width="100%" height="15%" title="Tribute Page" alt="Tribute Page"> <div class="textbox"> <p class="text">Empty</p></div></div>
-				<div class="box"> <img src="https://s14.postimg.org/lxwxe3r75/holder.jpg" width="100%" height="15%" title="Tribute Page" alt="Tribute Page"> <div class="textbox"> <p class="text">Empty</p></div></div>
-				<div class="box"> <img src="https://s14.postimg.org/lxwxe3r75/holder.jpg" width="100%" height="15%" title="Tribute Page" alt="Tribute Page"> <div class="textbox"> <p class="text">Empty</p></div></div>
+				<div class="box firstChild" onclick="window.open('https://5ar5kovic.github.io/Tribute-Page/', '_blank');"> <img src="img/portfolio/p1.jpg" title="Tribute Page" alt="Tribute Page"> <div class="textbox"> <p class="text">Tribute Page</p></div></div>
+				<div class="box" onclick="window.open('https://creativeshop.rs/', '_blank');"> <img src="img/portfolio/p2.jpg" title="CR Shop" alt="CR Shop"> <div class="textbox"> <p class="text">CR Shop</p></div></div>
+				<div class="box"> <img src="https://s14.postimg.org/lxwxe3r75/holder.jpg" title="empty" alt="empty"> <div class="textbox"> <p class="text">Empty</p></div></div>
+				<div class="box"> <img src="https://s14.postimg.org/lxwxe3r75/holder.jpg" title="empty" alt="empty"> <div class="textbox"> <p class="text">Empty</p></div></div>
 				<div class="clear"></div>
-				<div class="box firstChild"> <img src="https://s14.postimg.org/lxwxe3r75/holder.jpg" width="100%" height="15%" title="Tribute Page" alt="Tribute Page"> <div class="textbox"> <p class="text">Empty</p></div></div>
-				<div class="box"> <img src="https://s14.postimg.org/lxwxe3r75/holder.jpg" width="100%" height="15%" title="Tribute Page" alt="Tribute Page"> <div class="textbox"> <p class="text">Empty</p></div></div>
-				<div class="box"> <img src="https://s14.postimg.org/lxwxe3r75/holder.jpg" width="100%" height="15%" title="Tribute Page" alt="Tribute Page"> <div class="textbox"> <p class="text">Empty</p></div></div>
-				<div class="box"> <img src="https://s14.postimg.org/lxwxe3r75/holder.jpg" width="100%" height="15%" title="Tribute Page" alt="Tribute Page"> <div class="textbox"> <p class="text">Empty</p></div></div>
+				<div class="box firstChild"> <img src="https://s14.postimg.org/lxwxe3r75/holder.jpg" title="empty" alt="empty"> <div class="textbox"> <p class="text">Empty</p></div></div>
+				<div class="box"> <img src="https://s14.postimg.org/lxwxe3r75/holder.jpg" title="empty" alt="empty"> <div class="textbox"> <p class="text">Empty</p></div></div>
+				<div class="box"> <img src="https://s14.postimg.org/lxwxe3r75/holder.jpg" title="empty" alt="empty"> <div class="textbox"> <p class="text">Empty</p></div></div>
+				<div class="box"> <img src="https://s14.postimg.org/lxwxe3r75/holder.jpg" title="empty" alt="empty"> <div class="textbox"> <p class="text">Empty</p></div></div>
 				<div class="clear"></div>
 			</div> <!-- end of #portfolio -->
 
 			<div id="contact">
 				<h1> Contact me </h1> <br/> <br/>
-				<!--<?php
+				<?php
 					$action=$_REQUEST['action'];
 					if ($action=="")    /* display the contact form */
 			   		{
-			    ?> -->
+			    ?>
 			    <form action="" method="POST" enctype="multipart/form-data">	    
 				    <input name="action" value="submit" type="hidden">
 				    <input name="name" size="40" type="text" placeholder="Your name:" class="par"> <br/>
@@ -88,7 +88,7 @@
 				    <textarea placeholder="Your message..." name="message" rows="7" cols="40" class="par"></textarea> <br/>
 				    <input value="Send email" type="submit" class="send">
 			    </form>
-			    <!--<?php
+			    <?php
 			    } 
 					else                /* send the submitted data */
 					    {
@@ -105,13 +105,13 @@
 					        echo "Email sent!";
 					    }
 			    }  
-				?> -->
+				?>
 				
 				<div id="links">
-	    			<a href="https://www.linkedin.com/in/petarpetkovic" target="_blank"> <img src="https://s31.postimg.org/meud9weor/linkedin.png" title="Linkedin" class="large" alt="linkedin logo"> </a>
-	    			<a href="https://plus.google.com/u/0/102190003575610727918" target="_blank"> <img src="https://s31.postimg.org/hpn3119qz/google.jpg" title="Google+" class="small" alt="google plus logo"> </a>
-	    			<a href="https://github.com/5ar5kovic" target="_blank"> <img src="https://s31.postimg.org/tq4we9zkb/github.png" title="GitHub" class="small" alt="github logo"> </a>
-	    			<a href="https://www.facebook.com/5ar5kovic" target="_blank"> <img src="https://s31.postimg.org/ykptgs5iz/facebook.jpg" title="Facebook" class="large" alt="facebook logo"> </a>
+	    			<a href="https://www.linkedin.com/in/petarpetkovic" target="_blank"> <img src="img/links/linkedin.png" title="Linkedin" class="large" alt="linkedin logo"> </a>
+	    			<a href="https://plus.google.com/u/0/102190003575610727918" target="_blank"> <img src="img/links/google.jpg" title="Google+" class="small" alt="google plus logo"> </a>
+	    			<a href="https://github.com/5ar5kovic" target="_blank"> <img src="img/links/github.png" title="GitHub" class="small" alt="github logo"> </a>
+	    			<a href="https://www.facebook.com/5ar5kovic" target="_blank"> <img src="img/links/facebook.jpg" title="Facebook" class="large" alt="facebook logo"> </a>
     			</div> <!-- end of #links -->
     			
     			<div class="clear"> </div>
@@ -120,11 +120,8 @@
 
     		<div id="footer">
     		    <div class="footerLine">
-                    <div class="leftFooter">
-                        <p> © 2016 Petar Petković </p>
-                    </div>
                     <div class="rightFooter">
-                        <a href="https://github.com/5ar5kovic/Personal-Portfolio-Webpage" title="GitHub" target="_blank"> All Codes for this Site </a>
+                        <p> Copyright © 2016 <a href="mailto:petkovicpetar996@gmail.com">Petar</a> </p>
                     </div>
                     <div class="clear"> </div>
                 </div>

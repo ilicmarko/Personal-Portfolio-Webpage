@@ -10,3 +10,7 @@ jQuery(document).ready(function($) {
    		} );
   	} );
 } );
+
+$(function(){
+  $("#footer").load("html/footer.html"); 
+});
